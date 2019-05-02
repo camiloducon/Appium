@@ -5,7 +5,6 @@ import com.elempleo.app.pages.HomePage;
 import net.thucydides.core.annotations.Step;
 
 public class SelectCountryStep {
-
 	
 	HomePage homePage;
 	
