@@ -8,9 +8,9 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		features="src/test/resources/features/selectCountry.feature",
+		features="src/test/resources/features/Login.feature",
 		glue = "com.elempleo.app.stepdefinitions",
         snippets = SnippetType.CAMELCASE)
-public class SelectCountry {
+public class Login {
 
 }

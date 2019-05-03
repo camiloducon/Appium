@@ -19,5 +19,4 @@ public class HomePage extends PageObject {
 		element(btncolombia).click();
 		element(btnSaltar).click();
 	}
-
 }
