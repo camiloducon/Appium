@@ -4,13 +4,9 @@ Feature: Login app elempleo
   I want to login in the app
   to be access my profile
 
-  Scenario Outline: Login app elempleo
-    Given that  I select the country colombia <row>
-      | PathExcel                               | Sheet |
-      | src/test/resources/data/DatosEEapp.xlsx | Login |
+  Scenario: Login app elempleo
+    Given that  I select the country colombia
     When put my login data
+      | correoUsuario         | contrasena     |
+      | camiloducon@gmail.com | Andresducon745 |
     Then I can enter my profile
-
-    Examples: 
-      | row |
-      |   1 |

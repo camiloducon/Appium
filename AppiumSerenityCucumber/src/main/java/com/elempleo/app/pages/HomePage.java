@@ -17,6 +17,6 @@ public class HomePage extends PageObject {
 
 	public void seleccionarPais() {
 		element(btncolombia).click();
-		element(btnSaltar).click();
+			element(btnSaltar).click();
+		}		
 	}
-}
